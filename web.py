@@ -26,5 +26,3 @@ if st.button('click me to select your next movie'):
     recommendation = recommend(user_movie)
     for i in recommendation:
         st.write(i)
-# else:
-#     st.write(f"Movie '{user_movie}' not found in the dataset.")
